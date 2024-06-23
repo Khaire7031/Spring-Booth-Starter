@@ -1,7 +1,25 @@
-## Changes
+# Spring Booth Project
 
-### 1 application.properties
+Spring Booth Project is a Spring Boot application that integrates with MySQL for data persistence, uses Thymeleaf for server-side rendering, and leverages Tailwind CSS and Flowbite for UI components.
 
+## Prerequisites
+
+- Java 11 or higher
+- Maven
+- Node.js and npm
+- MySQL
+
+## Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/smartcontactmanager.git
+cd smartcontactmanager
+
+### 2. Application.properties
+
+```bash
 spring.application.name=scm
 server.port=3000
 spring.datasource.url=jdbc:mysql://localhost:3306/yourDatabaseName
