@@ -19,14 +19,16 @@ cd smartcontactmanager
 
 
 
-### 2. Application.properties
+## Configuration
 
-```bash
+Edit `src/main/resources/application.properties` with the following configuration:
+
+```properties
 spring.application.name=scm
 server.port=3000
 spring.datasource.url=jdbc:mysql://localhost:3306/yourDatabaseName
 spring.datasource.username=root
-spring.datasource.password= your Password8
+spring.datasource.password=yourPassword
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
