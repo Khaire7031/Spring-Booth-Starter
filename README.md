@@ -17,6 +17,8 @@ Spring Booth Project is a Spring Boot application that integrates with MySQL for
 git clone https://github.com/yourusername/smartcontactmanager.git
 cd smartcontactmanager
 
+
+
 ### 2. Application.properties
 
 ```bash
