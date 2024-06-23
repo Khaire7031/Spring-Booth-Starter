@@ -14,45 +14,50 @@
 
 - Edit src/main/resources/application.properties with the following configuration:
 
->pring.application.name=scm
+```sh
+pring.application.name=scm
 server.port=3000
 spring.datasource.url=jdbc:mysql://localhost:3306/ `MysqlDataBaseName`
 spring.datasource.username=root
 spring.datasource.password=`Your Mysql Password`
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.hibernate.ddl-auto=update
->spring.jpa.show-sql=true
-
+spring.jpa.show-sql=true
+```
 
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
 As [John Gruber] writes on the [Markdown site][df1]
 
 ## Project Structure
-Project Name/
+
+```sh
+Spring-Booth-Starter/
 ├── src/
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── com/
-│   │   │       └── yourpackage/
-│   │   │           ├── SCM.jaApplicationva.java
+│   │   │       └── scm/
+│   │   │           ├── SCMApplication.java
 │   │   │           ├── controller/
 │   │   │           ├── model/
 │   │   │           ├── repository/
 │   │   │           └── service/
 │   │   ├── resources/
-│   │       ├── static/
-│   │       │   ├── css/
-│   │       │   │   ├── input.css
-│   │       │   │   ├── output.css
-│   │       ├── templates/
-│   │       │   └── index.html
-│   │       ├── application.properties
+│   │   │   ├── static/
+│   │   │   │   └── css/
+│   │   │   │       ├── input.css
+│   │   │   │       └── output.css
+│   │   │   ├── templates/
+│   │   │   └── application.properties
 ├── .gitignore
 ├── mvnw
 ├── mvnw.cmd
 ├── pom.xml
 └── tailwind.config.js
+
+```
+
 
 
 ## Documentation
